@@ -10,6 +10,7 @@ Specifications:
 Challenges {
 
     - Having trouble properly deciphering gr 8/9 reading level.
+    - C version is having a library bug.
 
 }
 
