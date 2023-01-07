@@ -9,8 +9,8 @@ def main():
 
     # Input
     text = input("Input your text: ")
-    if not s.isalpha():
-        print("Please enter only alphabetical characters for your name.")
+    # if not text.isalpha():
+    #     print("Please enter only alphabetical characters for your input.")
 
     # Count letters
     letters = len(text) - text.count(" ") - text.count(".") - text.count("!") - text.count("?")
