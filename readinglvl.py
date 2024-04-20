@@ -9,14 +9,12 @@ def main():
 
     # Input
     text = input("Input your text: ")
-    # if not text.isalpha():
-    #     print("Please enter only alphabetical characters for your input.")
+    if text != text.isalpha():
+        print("Please enter only alphabetical characters for your input.")
+        text = input("Input your text: ")
 
     # Count letters
     letters = len(text) - text.count(" ") - text.count(".") - text.count("!") - text.count("?")
-    # for l in range(len(text)):
-    #     if text[l].isalpha():
-    #         letters += 1
 
     # Count words
     # words = len(re.findall(r"\w+", text))
@@ -44,12 +42,7 @@ def main():
     # print(f"words: {words}")
     # print(f"sentences: {sentences}")
 
-    # Print grade statements
-    if index < 1:
-        print("Grade: Before Grade 1.")
-    elif index >= 16:
-        print("Grade: Grade 16+")
-    else:
+    # Print grade statementsentences: {sentences}")
         print(f"Grade: {index}")
 
 
