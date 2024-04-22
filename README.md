@@ -35,7 +35,7 @@ To get this repository, run the following command inside your git enabled termin
 git clone https://github.com/TeaZea/Reading_Level_Tool.git
 ```
 
-CD into the repo (/<path>/<to>/<folderhere>) and run the .py file
+CD into the repo and run the .py file
 
 ```python
 python readinglvl.py
