@@ -44,7 +44,7 @@ python readinglvl.py
 ---
 
 ### Overview of the code
-The program is very basic. The only thing it specifically needs to run properly is the proper Coleman-Liau index algorythm which is: 0.0588 * L - 0.296 * S - 15.8, where 'L' = letters and 'S' = sentences. To do this properly, the program needs to count everything, including spaces and punctuation to assign them to the proper variables before running the equation. 
+The program is very basic. The only thing it specifically needs to run properly is the proper [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) algorythm which is: 0.0588 * L - 0.296 * S - 15.8, where 'L' = letters and 'S' = sentences. To do this properly, the program needs to count everything, including spaces and punctuation to assign them to the proper variables before running the equation. 
 
 ---
 
